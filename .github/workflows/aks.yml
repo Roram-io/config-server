@@ -50,6 +50,6 @@ jobs:
         with:
           config: ${{ secrets.KUBE_CONFIG_DATA }}
 
-          command: rollout status deployment/discovery-server
+          command: rollout status deployment/config-server
 
 
